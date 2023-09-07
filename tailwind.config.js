@@ -3,15 +3,23 @@ module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './containers/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'hero-pattern': "url('/images/hero.jpg')",
       },
+      colors: {
+        primary: "#0f0f0f",
+        secondary:"#36a635",
+        light:"#F4F0EA"
+      },
+    },
+    fontFamily: {
+      sans: ['Poppins', 'sans-serif'],
+      serif:['Cormorant Garamond', 'serif'],
     },
   },
   plugins: [],

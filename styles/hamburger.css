@@ -1,0 +1,35 @@
+.hamburger span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  margin-left: auto;
+  margin-bottom: 5px;
+  transition: all 300ms ease-in-out;
+  transform-origin: 4px 1px;
+}
+
+.hamburger-menu span:nth-child(1) {
+  margin-bottom: 0;
+}
+.hamburger-menu span:nth-child(2) {
+  margin-bottom: 0;
+}
+.hamburger-menu span:nth-child(3) {
+  margin-bottom: 0;
+}
+
+.toggle span:nth-child(1) {
+  transform: rotate(45deg);
+}
+.toggle span:nth-child(2) {
+  opacity: 0;
+}
+.toggle span:nth-child(3) {
+  transform: rotate(-45deg);
+}
+
+.stroke {
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}

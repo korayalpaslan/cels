@@ -1,0 +1,32 @@
+.nav_list li{
+	transition: .5s;
+	position: relative;
+}
+
+.nav_list li:before,
+.nav_list li:after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #36a635;
+    transition: .5s;
+    opacity: 0;
+}
+
+.nav_list li:before{
+    top: 0;
+    left: 0;
+}
+
+.nav_list li:after{
+    bottom: 0;
+    right: 0;
+}
+
+.nav_list li:hover:before,
+.nav_list li:hover:after{
+    opacity: 1;
+    width: 100%;
+    transition: .5s;
+}
