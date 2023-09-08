@@ -38,7 +38,7 @@ const Practice = () => {
   }, [inView]);
 
   return (
-    <section ref={ref} className="max-w-[1000px] px-4 lg:px-0 mx-auto w-full text-center lg:text-left pt-8 flex flex-col lg:flex-row lg:items-stretch" id="practice">
+    <section ref={ref} className="max-w-[1000px] px-4 lg:px-0 mx-auto w-full text-center lg:text-left pt-8 flex flex-col lg:flex-row lg:items-stretch overflow-hidden" id="practice">
       <motion.div animate={animationToRight} className="w-full lg:w-1/2 mb-16">
         <div className="text-left lg:pr-4">
           <h1 className="text-primary lg:text-secondary font-bold text-xl lg:text-4xl lg:mb-2">
