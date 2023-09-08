@@ -67,7 +67,7 @@ const Practice = () => {
                 placeholder="example@example.com"
               />
             </div>
-              <button className="bg-gradient-to-r from-lightSecondary via-midSecondary to-darkSecondary text-stone-100 hover:bg-primary transition-all duration-300 rounded-full py-3 px-6 lg:min-w-[125px] font-bold w-full lg:w-1/3">
+              <button className="bg-gradient-to-r from-lightSecondary via-midSecondary to-darkSecondary text-stone-100 hover:bg-gradient-to-r hover:from-primary hover:via-primary hover:to-primary  transition-all duration-300 rounded-full py-3 px-6 lg:min-w-[125px] font-bold w-full lg:w-1/3">
                 Start Now
               </button>
           </form>

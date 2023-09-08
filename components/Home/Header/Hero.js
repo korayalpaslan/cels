@@ -44,7 +44,7 @@ const Hero = () => {
               delay: 0.65,
               duration: 0.5,
             }}
-            className="bg-gradient-to-r from-lightSecondary via-midSecondary to-darkSecondary text-stone-100 hover:bg-primary transition-all duration-300 rounded-full py-3 px-6 min-w-[125px] mt-8 font-bold"
+            className="bg-gradient-to-r from-lightSecondary via-midSecondary to-darkSecondary text-stone-100 hover:bg-gradient-to-r hover:from-primary hover:via-primary hover:to-primary transition-all duration-300 rounded-full py-3 px-6 min-w-[125px] mt-8 font-bold"
           >
             Enroll Now
           </motion.button>
