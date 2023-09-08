@@ -23,8 +23,8 @@ const Navbar = () => {
 
   return (
     <nav className="max-w-[90vw] mx-auto overflow-hidden flex justify-between items-center py-8 px-4">
-      <Link href="/" className="font-bold text-2xl lg:text-3xl text-secondary invisible">
-        logo
+      <Link href="/">
+        <img src="./images/logo.png" alt="Logo" className="h-[45px] lg:h-[60px]"/>
       </Link>
       <div
         className={

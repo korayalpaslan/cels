@@ -28,7 +28,7 @@ const Testing = () => {
   }, [inView]);
 
   return (
-    <section ref={ref} className="w-full text-center  bg-secondary" id="testing">
+    <section ref={ref} className="w-full text-center bg-gradient-to-r from-lightSecondary via-midSecondary to-darkSecondary" id="testing">
       <motion.div animate={animation} className="max-w-[1200px] mx-auto px-4 pt-16 pb-8">
         <h1 className="text-slate-50 font-bold text-xl lg:text-4xl lg:mb-2">
           Test Information for Students and Parents

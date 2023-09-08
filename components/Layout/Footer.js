@@ -3,7 +3,7 @@ import { LiaFacebook, LiaLinkedin, LiaTwitter } from "react-icons/lia";
 
 const Footer = () => {
   return (
-    <footer className="bg-secondary" id="contact">
+    <footer className="bg-gradient-to-r from-lightSecondary via-midSecondary to-darkSecondary" id="contact">
       <div className="max-w-[1000px] mx-auto flex flex-col lg:flex-row lg:justify-between space-y-8 lg:space-y-0 pt-8 lg:pt-16 pb-8 border-b border-slate-50">
         <div className="w-full lg:w-1/3">
           <div className="text-center lg:text-left text-slate-50 font-light text-sm mb-4">

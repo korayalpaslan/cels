@@ -33,7 +33,7 @@ const About = () => {
       id="about"
     >
       <motion.div animate={animation}>
-        <h1 className="text-primary lg:text-secondary font-bold text-xl lg:text-4xl lg:mb-2">
+        <h1 className="text-primary lg:text-secondary font-bold text-xl lg:text-4xl lg:mb-2 bg-gradient-to-r from-lightSecondary via-midSecondary to-darkSecondary bg-clip-text text-transparent">
           Widen your horizon and
         </h1>
         <h1 className="text-secondary lg:text-primary font-bold text-xl lg:text-4xl">

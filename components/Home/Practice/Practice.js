@@ -41,7 +41,7 @@ const Practice = () => {
     <section ref={ref} className="max-w-[1000px] px-4 lg:px-0 mx-auto w-full text-center lg:text-left pt-8 flex flex-col lg:flex-row lg:items-stretch overflow-hidden" id="practice">
       <motion.div animate={animationToRight} className="w-full lg:w-1/2 mb-16">
         <div className="text-left lg:pr-4">
-          <h1 className="text-primary lg:text-secondary font-bold text-xl lg:text-4xl lg:mb-2">
+          <h1 className="bg-gradient-to-r from-lightSecondary via-midSecondary to-darkSecondary bg-clip-text text-transparent font-bold text-xl lg:text-4xl lg:mb-2">
             Practice Test
           </h1>
           <p className="mt-4 lg:mt-6">
@@ -67,7 +67,7 @@ const Practice = () => {
                 placeholder="example@example.com"
               />
             </div>
-              <button className="bg-secondary text-stone-100 hover:bg-primary transition-all duration-300 rounded-full py-3 px-6 lg:min-w-[125px] font-bold w-full lg:w-1/3">
+              <button className="bg-gradient-to-r from-lightSecondary via-midSecondary to-darkSecondary text-stone-100 hover:bg-primary transition-all duration-300 rounded-full py-3 px-6 lg:min-w-[125px] font-bold w-full lg:w-1/3">
                 Start Now
               </button>
           </form>

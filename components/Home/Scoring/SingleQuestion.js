@@ -13,7 +13,7 @@ const Question = (props) => {
   return (
     <div className="question border-t-[1px] border-gray-500 ">
       <div className="flex py-6">
-        <h4 className="text-secondary">{props.data.title}</h4>
+        <h4 className="text-midSecondary">{props.data.title}</h4>
         <button
           className={
             !showInfo

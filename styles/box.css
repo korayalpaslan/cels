@@ -4,7 +4,7 @@
 .box{
   width:200px; height:100px;  
   border:solid 3px #000;
-  border-color:#36a635 transparent transparent transparent;
+  border-color: #b90a09d9 transparent transparent transparent;
   border-radius: 120%/40px 100px 0 0px;
   transform: translateX(5%);
 }

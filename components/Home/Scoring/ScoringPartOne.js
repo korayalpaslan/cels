@@ -40,7 +40,7 @@ const ScoringPartOne = () => {
     <div ref={ref} className="flex flex-col lg:flex-row lg:justify-between mb-8 overflow-hidden">
       <motion.div animate={animationToRight} className="w-full lg:w-2/3 mb-8 lg:mb-8 lg:pr-32">
         <div className="text-left">
-          <h1 className="text-primary lg:text-secondary font-bold text-xl lg:text-4xl lg:mb-2">
+          <h1 className="bg-gradient-to-r from-lightSecondary via-midSecondary to-darkSecondary bg-clip-text text-transparent font-bold text-xl lg:text-4xl lg:mb-2">
             Score Interpretation
           </h1>
           <p className="text-xl">Proficiency Levels in CELS Competency</p>

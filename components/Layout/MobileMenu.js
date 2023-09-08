@@ -26,24 +26,21 @@ const MobileMenu = () => {
     <div
       className={
         ctx.toggleMenu
-          ? "h-[100vh] bg-secondary fixed z-50 top-0 left-0 right-0 bottom-0 opacity-100 transition ease-in-out duration-300"
-          : "h-[100vh] bg-secondary fixed -z-50 top-0 left-0 right-0 bottom-0 opacity-0 transition ease-in-out duration-300"
+          ? "h-[100vh] bg-red-900 fixed z-50 top-0 left-0 right-0 bottom-0 opacity-100 transition ease-in-out duration-300"
+          : "h-[100vh] bg-red-900 fixed -z-50 top-0 left-0 right-0 bottom-0 opacity-0 transition ease-in-out duration-300"
       }
     >
-      <nav className="w-full h-auto pt-4">
-        <div className=" flex items-center justify-between md:container md:mx-auto px-8 lg:px-16 py-4 ">
-          <Link
-            href="/"
-            className="font-bold text-2xl lg:text-3xl text-slate-50 invisible"
-          >
-            logo
+      <nav className="max-w-[90vw] mx-auto h-auto">
+        <div className=" flex items-center justify-between md:container md:mx-auto px-4 lg:px-16 py-8">
+          <Link href="/" className="ml-2">
+            <img src="./images/logo2.png" alt="Logo" className="h-[45px]" />
           </Link>
           <div>
             <div
               className={
                 !ctx.toggleMenu
-                  ? "hamburger lg:hidden block mt-2"
-                  : "hamburger toggle lg:hidden block mt-2"
+                  ? "hamburger lg:hidden block mt-3"
+                  : "hamburger toggle lg:hidden block mt-3"
               }
               onClick={toggleMenuHandler}
             >
