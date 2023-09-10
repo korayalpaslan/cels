@@ -14,7 +14,7 @@ const listening = [
         answer: "Identical and triplets",
       },
       {
-        option: "a",
+        option: "c",
         isCorrect: false,
         answer: "Fraternal and quadruplets",
       },
@@ -35,7 +35,7 @@ const listening = [
         answer: "They develop from separate eggs.",
       },
       {
-        option: "a",
+        option: "c",
         isCorrect: true,
         answer: "They share the same DNA.",
       },
@@ -56,7 +56,7 @@ const listening = [
         answer: "A special bond and their own ways of communication.",
       },
       {
-        option: "a",
+        option: "c",
         isCorrect: false,
         answer: "Strong preference for different hobbies.",
       },
