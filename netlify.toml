@@ -1,0 +1,8 @@
+[build]
+CI="true npm run build"
+
+[[redirects]]
+  from = "https://celstest.netlify.app/*"
+  to = "https://www.celstest.org/:splat"
+  status = 301
+  force = true

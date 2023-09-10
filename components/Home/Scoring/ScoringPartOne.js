@@ -43,16 +43,16 @@ const ScoringPartOne = () => {
           <h1 className="bg-gradient-to-r from-lightSecondary via-midSecondary to-darkSecondary bg-clip-text text-transparent font-bold text-xl lg:text-4xl lg:mb-2">
             Score Interpretation
           </h1>
-          <p className="text-xl">Proficiency Levels in CELS Competency</p>
+          <p className="text-xl">Proficiency Levels in CELS<span className="font-light">&reg;</span> Competency</p>
           <p className="mt-4 lg:mt-6">
-            The CELS Test is a standardized assessment specifically created to
+            The CELS<span className="font-light">&reg;</span> Test is a standardized assessment specifically created to
             gauge the listening and reading comprehension proficiencies of high
             school-level English language learners. Its purpose is to determine
             students' capability to navigate the English language requisites
             within secondary school subjects taught in English.
           </p>
           <p className="mt-4 lg:mt-6">
-            The CELS Test is a standardized assessment specifically created to
+            The CELS<span className="font-light">&reg;</span> Test is a standardized assessment specifically created to
             gauge the listening and reading comprehension proficiencies of high
             school-level English language learners.
           </p>

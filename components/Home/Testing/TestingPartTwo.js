@@ -41,11 +41,11 @@ const TestingPartTwo = () => {
   return (
     <div ref={ref} className="max-w-[90vw] lg:max-w-[1200px] mx-auto pb-8 lg:pb-0 flex flex-col lg:flex-row lg:justify-between lg:items-center space-x-0 lg:space-x-8 overflow-hidden">
       <motion.div animate={animationToRight} className="w-full lg:w-1/3 mb-8 lg:mb-0 order-2 lg:order-1">
-        <h2 className="text-left text-xl text-slate-50 font-bold mb-2">
+        <h2 className="text-left text-xl text-slate-50 mb-2">
           Test Structure
         </h2>
-        <p className="text-left text-slate-50">
-          The CELS assessment consists of two primary components: Listening and
+        <p className="text-left text-slate-50 font-light">
+          The CELS<span className="font-light">&reg;</span> assessment consists of two primary components: Listening and
           Reading. Approximately 25 minutes are allocated for the listening
           section, while the reading section demands around 45 minutes. Each of
           these test segments is subdivided into various sections.

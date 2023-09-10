@@ -31,16 +31,16 @@ const MobileMenu = () => {
       }
     >
       <nav className="max-w-[90vw] mx-auto h-auto">
-        <div className=" flex items-center justify-between md:container md:mx-auto px-4 lg:px-16 py-8">
+        <div className=" flex items-center justify-between md:container md:mx-auto lg:px-16">
           <Link href="/" className="ml-2">
-            <img src="./images/logo2.png" alt="Logo" className="h-[45px]" />
+            <img src="./images/logo2.png" alt="Logo" className="h-[60px]" />
           </Link>
           <div>
             <div
               className={
                 !ctx.toggleMenu
-                  ? "hamburger lg:hidden block mt-3"
-                  : "hamburger toggle lg:hidden block mt-3"
+                  ? "hamburger lg:hidden block mt-3 py-8 pr-2"
+                  : "hamburger toggle lg:hidden block mt-3 py-8 pr-2"
               }
               onClick={toggleMenuHandler}
             >
@@ -53,12 +53,11 @@ const MobileMenu = () => {
       </nav>
       {ctx.toggleMenu && (
         <ul className="flex flex-col items-center mt-10 text-slate-50 list-none text-2xl font-light">
-          <li
-            className="mb-4 cursor-pointer"
-            onClick={() => handleClickScroll("about")}
-          >
-            About CELC
-          </li>
+          <Link href="/about" className="mb-4 cursor-pointer" onClick={toggleMenuHandler}>
+            {" "}
+            ABOUT CELS<span>&reg;</span>
+          </Link>
+
           <li
             className="mb-4 cursor-pointer"
             onClick={() => handleClickScroll("testing")}

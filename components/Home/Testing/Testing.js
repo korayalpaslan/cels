@@ -34,7 +34,7 @@ const Testing = () => {
           Test Information for Students and Parents
         </h1>
         <p className="text-slate-50 mt-4 lg:mt-6 lg:text-xl max-w-[1000px] mx-auto">
-        The CELS Test is a standardized exam created to assess the listening and reading comprehension abilities of English language learners in high school. It aims to gauge students' capacity to handle the English language demands within secondary school courses conducted in English.
+        The CELS<span className="font-light">&reg;</span> Test is a standardized exam created to assess the listening and reading comprehension abilities of English language learners in high school. It aims to gauge students' capacity to handle the English language demands within secondary school courses conducted in English.
         </p>
       </motion.div>
       <TestingPartTwo/>

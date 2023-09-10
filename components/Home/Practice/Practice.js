@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import Link from "next/link";
 import { useInView } from "react-intersection-observer";
 import { motion, useAnimation } from "framer-motion";
 import { PiDotsNineLight } from "react-icons/pi";
@@ -38,7 +39,11 @@ const Practice = () => {
   }, [inView]);
 
   return (
-    <section ref={ref} className="max-w-[1000px] px-4 lg:px-0 mx-auto w-full text-center lg:text-left pt-8 flex flex-col lg:flex-row lg:items-stretch overflow-hidden" id="practice">
+    <section
+      ref={ref}
+      className="max-w-[1000px] px-4 lg:px-0 mx-auto w-full text-center lg:text-left pt-8 flex flex-col lg:flex-row lg:items-stretch overflow-hidden"
+      id="practice"
+    >
       <motion.div animate={animationToRight} className="w-full lg:w-1/2 mb-16">
         <div className="text-left lg:pr-4">
           <h1 className="bg-gradient-to-r from-lightSecondary via-midSecondary to-darkSecondary bg-clip-text text-transparent font-bold text-xl lg:text-4xl lg:mb-2">
@@ -48,15 +53,16 @@ const Practice = () => {
             Congratulations on embarking on your thrilling adventure to pursue
             studies/exchange programs abroad! The initial key to a prosperous
             academic experience is gaining insight into your proficiency in the
-            English language. The CELS TEST is an assessment designed to gauge
-            your English listening and reading comprehension abilities. Prior to
-            undertaking the test, it's recommended to complete a practice
-            examination to ready yourself effectively.
+            English language. The CELS<span className="font-light">&reg;</span>{" "}
+            TEST is an assessment designed to gauge your English listening and
+            reading comprehension abilities. Prior to undertaking the test, it's
+            recommended to complete a practice examination to ready yourself
+            effectively.
           </p>
           <p className="mt-4 lg:mt-6">
             To get started, please provide your email address:
           </p>
-          <form className="flex flex-col lg:flex-row items-center space-x-4 mt-4">
+          {/* <form className="flex flex-col lg:flex-row items-center space-x-4 mt-4">
             <div className="w-full lg:w-2/3 rounded-2xl mb-4 lg:mb-0">
               <input
                 type="email"
@@ -70,10 +76,16 @@ const Practice = () => {
               <button className="bg-gradient-to-r from-lightSecondary via-midSecondary to-darkSecondary text-stone-100 hover:bg-gradient-to-r hover:from-primary hover:via-primary hover:to-primary  transition-all duration-300 rounded-full py-3 px-6 lg:min-w-[125px] font-bold w-full lg:w-1/3">
                 Start Now
               </button>
-          </form>
+          </form> */}
+          <button className="bg-gradient-to-r from-lightSecondary via-midSecondary to-darkSecondary text-stone-100 hover:bg-gradient-to-r hover:from-primary hover:via-primary hover:to-primary  transition-all duration-300 rounded-full py-3 px-6 lg:min-w-[125px] font-bold w-full lg:w-1/3 mt-4">
+            <Link href="/practice">Start Now</Link>
+          </button>
         </div>
       </motion.div>
-      <motion.div animate={animationToLeft} className="w-full lg:w-1/2 relative min-h-[300px] lg:min-h-[450px]">
+      <motion.div
+        animate={animationToLeft}
+        className="w-full lg:w-1/2 relative min-h-[300px] lg:min-h-[450px]"
+      >
         <div className="content-none w-[250px] h-[250px] lg:w-[300px] lg:h-[300px] bg-secondary absolute top-0 left-1/2 -translate-x-1/2 rounded-full"></div>
         <img
           src="/images/practice.png"

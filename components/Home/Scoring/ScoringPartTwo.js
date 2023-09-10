@@ -41,7 +41,7 @@ const ScoringPartTwo = () => {
       <div className="w-full lg:w-2/3 lg:pl-16">
         <div className="max-w-[800px] text-left">
           <h1 className="text-primary font-bold text-xl mb-4 lg:mb-8">
-            Cels Proficiency Levels
+            CELS<span className="font-light">&reg;</span> Proficiency Levels
           </h1>
         </div>
 
