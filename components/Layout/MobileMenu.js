@@ -17,8 +17,8 @@ const MobileMenu = () => {
     <div
       className={
         ctx.toggleMenu
-          ? "h-[100vh] bg-primary/50 fixed z-50 top-0 left-0 right-0 bottom-0 opacity-100 transition ease-in-out duration-300"
-          : "h-[100vh] bg-primary/50 fixed -z-50 top-0 left-0 right-0 bottom-0 opacity-0 transition ease-in-out duration-300"
+          ? "h-[100vh] bg-primary fixed z-50 top-0 left-0 right-0 bottom-0 opacity-100 transition ease-in-out duration-300"
+          : "h-[100vh] bg-primary fixed -z-50 top-0 left-0 right-0 bottom-0 opacity-0 transition ease-in-out duration-300"
       }
     >
       <nav className="max-w-[90vw] mx-auto h-auto px-2">
