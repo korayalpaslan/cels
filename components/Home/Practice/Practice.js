@@ -44,12 +44,12 @@ const Practice = () => {
       className="max-w-[1000px] px-4 lg:px-0 mx-auto w-full text-center lg:text-left pt-8 flex flex-col lg:flex-row lg:items-stretch overflow-hidden"
       id="practice"
     >
-      <motion.div animate={animationToRight} className="w-full lg:w-1/2 mb-16">
-        <div className="text-left lg:pr-4">
-          <h1 className="bg-gradient-to-r from-lightSecondary via-midSecondary to-darkSecondary bg-clip-text text-transparent font-bold text-xl lg:text-4xl lg:mb-2">
+      <motion.div animate={animationToRight} className="w-full lg:w-1/2">
+        <div className="text-left lg:pr-4 h-full">
+          <h1 className="bg-gradient-to-r from-lightSecondary via-midSecondary to-darkSecondary bg-clip-text text-transparent font-bold text-xl lg:text-4xl mb-2">
             Practice Test
           </h1>
-          <p className="mt-4 lg:mt-6">
+          <p className="mb-4">
             Congratulations on embarking on your thrilling adventure to pursue
             studies/exchange programs abroad! The initial key to a prosperous
             academic experience is gaining insight into your proficiency in the
@@ -59,9 +59,15 @@ const Practice = () => {
             recommended to complete a practice examination to ready yourself
             effectively.
           </p>
-          <p className="mt-4 lg:mt-6">
-            To get started, please provide your email address:
-          </p>
+          <p className="mb-8">To get started, please provide your email address:</p>
+          <div>
+            <Link
+              className="bg-gradient-to-r from-lightSecondary via-midSecondary to-darkSecondary text-slate-50 hover:bg-gradient-to-r hover:from-primary hover:via-primary hover:to-primary  transition-all duration-300 rounded-full py-3 px-6 lg:min-w-[125px] font-bold w-full lg:w-1/3"
+              href="/practice"
+            >
+              Start Now
+            </Link>
+          </div>
           {/* <form className="flex flex-col lg:flex-row items-center space-x-4 mt-4">
             <div className="w-full lg:w-2/3 rounded-2xl mb-4 lg:mb-0">
               <input
@@ -77,14 +83,19 @@ const Practice = () => {
                 Start Now
               </button>
           </form> */}
-          <button className="bg-gradient-to-r from-lightSecondary via-midSecondary to-darkSecondary text-stone-100 hover:bg-gradient-to-r hover:from-primary hover:via-primary hover:to-primary  transition-all duration-300 rounded-full py-3 px-6 lg:min-w-[125px] font-bold w-full lg:w-1/3 mt-4">
-            <Link href="/practice">Start Now</Link>
-          </button>
+          {/* <div className="bg-purple-200 h-full">
+            <Link
+              className="bg-gradient-to-r from-lightSecondary via-midSecondary to-darkSecondary text-stone-100 hover:bg-gradient-to-r hover:from-primary hover:via-primary hover:to-primary  transition-all duration-300 rounded-full py-3 px-6 lg:min-w-[125px] font-bold w-full lg:w-1/3"
+              href="/practice"
+            >
+              Start Now
+            </Link>
+          </div> */}
         </div>
       </motion.div>
       <motion.div
         animate={animationToLeft}
-        className="w-full lg:w-1/2 relative min-h-[300px] lg:min-h-[450px]"
+        className="w-full lg:w-1/2 relative min-h-[300px] lg:min-h-[450px] mt-8 lg:mt-0"
       >
         <div className="content-none w-[250px] h-[250px] lg:w-[300px] lg:h-[300px] bg-secondary absolute top-0 left-1/2 -translate-x-1/2 rounded-full"></div>
         <img

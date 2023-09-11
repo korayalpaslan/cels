@@ -53,29 +53,24 @@ const Footer = () => {
           <ul className="font-sans flex flex-col text-sm font-medium text-slate-50">
             <li className="mb-2 hover:text-primary">
               {" "}
+              <Link href="/"> HOME</Link>
+            </li>
+            <li className="mb-2 hover:text-primary">
+              {" "}
               <Link href="/about">
                 {" "}
                 ABOUT CELS<span className="font-light">&reg;</span>
               </Link>
             </li>
-            {router.pathname === "/" && (
-              <li
-                className="mb-2 cursor-pointer hover:text-primary"
-                onClick={() => handleClickScroll("testing")}
-              >
-                TESTING
-              </li>
-            )}
-            {router.pathname === "/" && (
-              <li
-                className="mb-2 cursor-pointer hover:text-primary"
-                onClick={() => handleClickScroll("scoring")}
-              >
-                SCORING
-              </li>
-            )}
-            <li className="hover:text-primary">
-              <Link href="/practice">PRACTICE</Link>
+
+            <li className="mb-2 cursor-pointer hover:text-primary">
+              <Link href="/testing"> TESTING</Link>
+            </li>
+            <li className="mb-2 cursor-pointer hover:text-primary">
+              <Link href="/scoring"> SCORING</Link>
+            </li>
+            <li className="mb-2 cursor-pointer hover:text-primary">
+              <Link href="/practice"> PRACTICE</Link>
             </li>
           </ul>
         </div>

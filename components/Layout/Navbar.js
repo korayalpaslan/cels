@@ -1,8 +1,8 @@
-import React, { useContext, useState,useEffect } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import Link from "next/link";
 import NotificationContext from "../../store/context";
 import { useRouter } from "next/router";
-import { AiOutlineArrowLeft } from "react-icons/ai";
+// import { AiOutlineArrowLeft } from "react-icons/ai";
 import { MdKeyboardArrowUp } from "react-icons/md";
 
 const Navbar = () => {
@@ -39,104 +39,65 @@ const Navbar = () => {
       behavior: "smooth",
     });
   };
+  return (
+    <>
+      <nav className="max-w-[90vw] mx-auto overflow-hidden flex justify-between items-center px-2">
+        <Link href="/">
+          <img
+            src="./images/logo.png"
+            alt="Logo"
+            className="h-[60px] lg:h-[80px]"
+          />
+        </Link>
+        <div
+          className={
+            !ctx.toggleMenu
+              ? "hamburger lg:hidden block mt-2 py-8 pr-2"
+              : "hamburger toggle lg:hidden block mt-2 py-8 pr-2"
+          }
+          onClick={toggleMenuHandler}
+        >
+          <span className="bg-gray-600"></span>
+          <span className="bg-gray-600"></span>
+          <span className="bg-gray-600"></span>
+        </div>
 
-  if (router.pathname === "/") {
-    return (
-      <>
-        <nav className="max-w-[90vw] mx-auto overflow-hidden flex justify-between items-center px-2">
-          <Link href="/">
-            <img
-              src="./images/logo.png"
-              alt="Logo"
-              className="h-[60px] lg:h-[80px]"
-            />
-          </Link>
-          <div
-            className={
-              !ctx.toggleMenu
-                ? "hamburger lg:hidden block mt-2 py-8 pr-2"
-                : "hamburger toggle lg:hidden block mt-2 py-8 pr-2"
-            }
-            onClick={toggleMenuHandler}
-          >
-            <span className="bg-gray-600"></span>
-            <span className="bg-gray-600"></span>
-            <span className="bg-gray-600"></span>
-          </div>
-
-          <ul className="font-sans hidden lg:flex justify-center items-center nav_list py-8">
-            <li className="ml-6 cursor-pointer py-2">
-              <Link href="/about">
-                {" "}
-                ABOUT CELS<span className="font-light">&reg;</span>
-              </Link>
-            </li>
-            <li
-              className="ml-6 cursor-pointer py-2"
-              onClick={() => handleClickScroll("testing")}
-            >
-              TESTING
-            </li>
-            <li
-              className="ml-6 cursor-pointer py-2"
-              onClick={() => handleClickScroll("scoring")}
-            >
-              SCORING
-            </li>
-            <li
-              className="ml-6 cursor-pointer py-2"
-              onClick={() => handleClickScroll("practice")}
-            >
-              PRACTICE
-            </li>
-            <li
-              className="ml-6 cursor-pointer py-2"
-              onClick={() => handleClickScroll("contact")}
-            >
-              CONTACT
-            </li>
-          </ul>
-        </nav>
-        {showArrow && (
-          <MdKeyboardArrowUp
-            className="fixed z-30 w-8 h-8 bg-midSecondary bottom-5 right-5 cursor-pointer text-slate-50"
-            onClick={scrollToTopHandler}
-          ></MdKeyboardArrowUp>
-        )}
-      </>
-    );
-  } else {
-    return (
-      <>
-        <nav className="max-w-[90vw] mx-auto overflow-hidden flex justify-between items-center px-2">
-          <Link href="/">
-            <img
-              src="./images/logo.png"
-              alt="Logo"
-              className="h-[60px] lg:h-[80px]"
-            />
-          </Link>
-          <ul className="font-sans lg:flex justify-center items-center nav_list py-8">
-            <Link
-              href="/"
-              className="ml-6 cursor-pointer py-2 flex items-center hover:text-midSecondary"
-            >
-              Back to Home
-              <span className="ml-2">
-                <AiOutlineArrowLeft />
-              </span>
+        <ul className="font-sans hidden lg:flex justify-center items-center nav_list py-8">
+          <li className="ml-6 cursor-pointer py-2">
+            <Link href="/"> HOME</Link>
+          </li>
+          <li className="ml-6 cursor-pointer py-2">
+            {" "}
+            <Link href="/about">
+              {" "}
+              ABOUT CELS<span className="font-light">&reg;</span>
             </Link>
-          </ul>
-        </nav>
-        {showArrow && (
-          <MdKeyboardArrowUp
-            className="fixed z-30 w-8 h-8 bg-midSecondary bottom-5 right-5 cursor-pointer text-slate-50"
-            onClick={scrollToTopHandler}
-          ></MdKeyboardArrowUp>
-        )}
-      </>
-    );
-  }
+          </li>
+          <li className="ml-6 cursor-pointer py-2">
+            <Link href="/testing">TESTING</Link>
+          </li>
+          <li className="ml-6 cursor-pointer py-2">
+            <Link href="/scoring">SCORING</Link>
+          </li>
+          <li className="ml-6 cursor-pointer py-2">
+            <Link href="/practice">PRACTICE</Link>
+          </li>
+          <li
+            className="ml-6 cursor-pointer py-2"
+            onClick={() => handleClickScroll("contact")}
+          >
+            CONTACT
+          </li>
+        </ul>
+      </nav>
+      {showArrow && (
+        <MdKeyboardArrowUp
+          className="fixed z-30 w-8 h-8 bg-midSecondary bottom-5 right-5 cursor-pointer text-slate-50"
+          onClick={scrollToTopHandler}
+        ></MdKeyboardArrowUp>
+      )}
+    </>
+  );
 };
 
 export default Navbar;
