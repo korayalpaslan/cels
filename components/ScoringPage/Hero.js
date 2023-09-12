@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <header className="max-w-[90vw] mx-auto h-[60vh] w-full bg-[url('/images/practice2.jpg')] bg-cover bg-right lg:bg-center rounded-3xl">
+    <header className="max-w-[90vw] mx-auto h-[60vh] w-full bg-[url('/images/scoring3.jpg')] bg-cover bg-right lg:bg-center rounded-3xl">
       <div className="h-full bg-black/50 flex items-center rounded-3xl text-slate-50">
         <div className="w-full px-4 flex flex-col items-center text-center">
           <motion.h1
@@ -16,7 +16,7 @@ const Hero = () => {
             }}
             className="font-bold mb-4 text-2xl lg:text-5xl"
           >
-            Practice Test
+            Scoring
           </motion.h1>
         </div>
       </div>

@@ -45,16 +45,7 @@ const ScoringPartOne = () => {
           </h1>
           <p className="text-xl">Proficiency Levels in CELS<span className="font-light">&reg;</span> Competency</p>
           <p className="mt-4 lg:mt-6">
-            The CELS<span className="font-light">&reg;</span> Test is a standardized assessment specifically created to
-            gauge the listening and reading comprehension proficiencies of high
-            school-level English language learners. Its purpose is to determine
-            students' capability to navigate the English language requisites
-            within secondary school subjects taught in English.
-          </p>
-          <p className="mt-4 lg:mt-6">
-            The CELS<span className="font-light">&reg;</span> Test is a standardized assessment specifically created to
-            gauge the listening and reading comprehension proficiencies of high
-            school-level English language learners.
+            The CELS <span className="font-light">&reg;</span>competency scale comprises five proficiency levels. These levels come with verbal explanations of the abilities expected from students based on their test results. Level one signifies minimal proficiency, whereas level 5 denotes a strong proficiency. Students achieving levels 4 and 5 usually excel in English-instructed courses with minimal or no need for English language assistance.
           </p>
         </div>
       </motion.div>

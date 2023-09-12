@@ -33,7 +33,7 @@ const Footer = () => {
             <p>contact@celstest.org</p>
           </div>
         </div>
-        <div className="w-full lg:w-1/3 flex flex-col items-center lg:flex-none">
+        {/* <div className="w-full lg:w-1/3 flex flex-col items-center lg:flex-none">
           <h1 className="text-slate-50 text-sm font-medium mb-2">
             FOLLOW US ON
           </h1>
@@ -48,7 +48,7 @@ const Footer = () => {
               <LiaFacebook className="hover:text-gray-900 cursor-pointer" />
             </li>
           </ul>
-        </div>
+        </div> */}
         <div className="w-full lg:w-1/3 flex flex-col items-center text-center lg:flex-none">
           <ul className="font-sans flex flex-col text-sm font-medium text-slate-50">
             <li className="mb-2 hover:text-primary">
