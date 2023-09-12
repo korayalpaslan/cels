@@ -11,9 +11,9 @@ const HomePageContainer = () => {
     <>
       <Hero />
       <About />
-      <Testing />
+      {/* <Testing />
       <Scoring />
-      <Practice />
+      <Practice /> */}
     </>
   );
 };

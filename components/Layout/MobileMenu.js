@@ -85,7 +85,7 @@ const MobileMenu = () => {
         </ul>
       )}
       <div className="flex flex-col items-center lg:flex-none mt-auto">
-        <h1 className="text-slate-50 font-light text-xl mt-8">FOLLOW US ON</h1>
+        {/* <h1 className="text-slate-50 font-light text-xl mt-8">FOLLOW US ON</h1>
         <ul className="text-slate-50 text-3xl flex justify-start space-x-2">
           <li>
             <LiaLinkedin />
@@ -96,7 +96,7 @@ const MobileMenu = () => {
           <li>
             <LiaFacebook />
           </li>
-        </ul>
+        </ul> */}
         <div className="text-center lg:text-left text-slate-50 font-light text-sm mt-4">
           <p className="mb-2">+1 416 624 15 91</p>
           <p>contact@celstest.org</p>
