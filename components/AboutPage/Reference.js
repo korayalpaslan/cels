@@ -16,55 +16,43 @@ const Reference = () => {
       </div>
       <ul className="max-w-[1000px] mx-auto lg:px-8 flex flex-wrap justify-center items-center">
         <li className="p-1 w-[100px] md:w-[125px] lg:w-[150px] m-5 h-[100px] flex justify-center items-center">
-          <Image
+          <img
             src="/images/sponsor1.png"
-            width={300}
-            height={200}
             className="h-full object-contain"
             alt="Sponsor Logo"
           />
         </li>
         <li className="p-1 w-[100px] md:w-[125px] lg:w-[150px] m-5 h-[100px] flex justify-center items-center">
-          <Image
+          <img
             src="/images/sponsor2.png"
-            width={300}
-            height={200}
             className="h-full object-contain"
             alt="Sponsor Logo"
           />
         </li>
         <li className="p-1 w-[100px] md:w-[125px] lg:w-[150px] m-5 h-[100px] flex justify-center items-center">
-          <Image
+          <img
             src="/images/sponsor3.png"
-            width={300}
-            height={200}
             className="h-full object-contain"
             alt="Sponsor Logo"
           />
         </li>
         <li className="p-1 w-[100px] md:w-[125px] lg:w-[150px] m-5 h-[100px] flex justify-center items-center">
-          <Image
+          <img
             src="/images/sponsor4.png"
-            width={300}
-            height={200}
             className="h-full object-contain"
             alt="Sponsor Logo"
           />
         </li>
         <li className="p-1 w-[100px] md:w-[125px] lg:w-[150px] m-5 h-[100px] flex justify-center items-center">
-          <Image
+          <img
             src="/images/sponsor5.png"
-            width={300}
-            height={200}
             className="h-full object-contain"
             alt="Sponsor Logo"
           />
         </li>
         <li className="p-1 w-[100px] md:w-[125px] lg:w-[150px] m-5 h-[100px] flex justify-center items-center">
-          <Image
+          <img
             src="/images/sponsor6.png"
-            width={300}
-            height={200}
             className="h-full object-contain"
             alt="Sponsor Logo"
           />
