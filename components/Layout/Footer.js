@@ -33,11 +33,18 @@ const Footer = () => {
             <p>contact@celstest.org</p>
           </div>
         </div>
-        {/* <div className="w-full lg:w-1/3 flex flex-col items-center lg:flex-none">
-          <h1 className="text-slate-50 text-sm font-medium mb-2">
-            FOLLOW US ON
-          </h1>
-          <ul className="text-slate-50 text-3xl flex justify-start space-x-2">
+        <div className="w-full lg:w-1/3 flex flex-col items-center lg:flex-none">
+          <div className="text-center lg:text-left text-slate-50 font-light text-sm mb-4">
+            <h1 className="font-medium">Partner of Türkiye</h1>
+            <p className="font-medium">WCEP</p>
+            <p className="mb-2">
+              Acıbadem Mah. Tekin Sok.No:5 <br></br>(Havuzlar Sitesi Köşkü)
+              <br></br>İSTANBUL / TÜRKİYE
+            </p>
+            <p className="mb-2">+90 216 339 01 07</p>
+            <p>istanbul@wcep.org</p>
+          </div>
+          {/* <ul className="text-slate-50 text-3xl flex justify-start space-x-2">
             <li>
               <LiaLinkedin className="hover:text-gray-900 cursor-pointer" />
             </li>
@@ -47,8 +54,8 @@ const Footer = () => {
             <li>
               <LiaFacebook className="hover:text-gray-900 cursor-pointer" />
             </li>
-          </ul>
-        </div> */}
+          </ul> */}
+        </div>
         <div className="w-full lg:w-1/3 flex flex-col items-center text-center lg:flex-none">
           <ul className="font-sans flex flex-col text-sm font-medium text-slate-50">
             <li className="mb-2 hover:text-primary">
