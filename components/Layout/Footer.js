@@ -84,8 +84,8 @@ const Footer = () => {
       </div>
 
       <div className="text-center">
-        <p className="text-sm font-light italic py-8 text-slate-50">
-          &copy; 2023 All rights reserved
+        <p className="text-sm font-light py-8 text-slate-50">
+          {new Date().getFullYear()} | &copy; All rights reserved
         </p>
       </div>
     </footer>
