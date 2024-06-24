@@ -21,10 +21,10 @@ const MobileMenu = () => {
           : "h-[100vh] bg-primary fixed -z-50 top-0 left-0 right-0 bottom-0 opacity-0 transition ease-in-out duration-300"
       }
     >
-      <nav className="max-w-[90vw] mx-auto h-auto px-2">
+      <nav className="max-w-[90vw] mx-auto h-auto">
         <div className=" flex items-center justify-between md:container md:mx-auto lg:px-16">
-          <Link href="/" className="ml-2">
-            <img src="./images/logo2.png" alt="Logo" className="h-[60px]" />
+          <Link href="/">
+            <img src="./images/logo2.png" alt="Logo" className="h-[80px]" />
           </Link>
           <div>
             <div
