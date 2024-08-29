@@ -29,7 +29,7 @@ const Footer = () => {
             <h1 className="font-medium">HEAD OFFICE</h1>
             <p>56 Forest Manor Rd. U-1105 North YORK, ON M2J 0E5</p>
             <p className="mb-2">CANADA</p>
-            <p className="mb-2">+1 416 624 15 91</p>
+            <p className="mb-2">+1 416 571 4696</p>
             <p>contact@celstest.org</p>
           </div>
         </div>

@@ -43,11 +43,7 @@ const Navbar = () => {
     <>
       <nav className="max-w-[90vw] mx-auto overflow-hidden flex justify-between items-center px-2">
         <Link href="/">
-          <img
-            src="./images/logo.png"
-            alt="Logo"
-            className="h-[80px] lg:h-[90px]"
-          />
+          <img src="./images/logo.png" alt="Logo" className="w-[100px]" />
         </Link>
         <div
           className={
