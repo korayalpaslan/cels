@@ -98,7 +98,7 @@ const MobileMenu = () => {
           </li>
         </ul> */}
         <div className="text-center lg:text-left text-slate-50 font-light text-sm mt-4">
-          <p className="mb-2">+1 416 624 15 91</p>
+          <p className="mb-2">+1 416 571 4696</p>
           <p>contact@celstest.org</p>
         </div>
       </div>
