@@ -10,7 +10,8 @@ const Reference = () => {
             We are accredited
           </h1>
           <p className="font-medium">
-          Institutions and organizations from all around the world that have granted us accreditation.
+            Institutions and organizations from all around the world that have
+            granted us accreditation.
           </p>
         </div>
       </div>
@@ -53,6 +54,13 @@ const Reference = () => {
         <li className="p-1 w-[100px] md:w-[125px] lg:w-[150px] m-5 h-[100px] flex justify-center items-center">
           <img
             src="/images/sponsor6.png"
+            className="h-full object-contain"
+            alt="Sponsor Logo"
+          />
+        </li>
+        <li className="p-1 w-[100px] md:w-[125px] lg:w-[150px] m-5 h-[100px] flex justify-center items-center">
+          <img
+            src="/images/sponsor7.png"
             className="h-full object-contain"
             alt="Sponsor Logo"
           />
