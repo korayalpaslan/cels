@@ -23,10 +23,10 @@ const Footer = () => {
       className="bg-gradient-to-r from-lightSecondary via-midSecondary to-darkSecondary"
       id="contact"
     >
-      <div className="max-w-[1000px] mx-auto flex flex-col lg:flex-row lg:justify-between space-y-8 lg:space-y-0 pt-8 lg:pt-16 pb-8 border-b border-slate-50">
+      <div className="max-w-[1000px] mx-auto flex flex-col lg:flex-row lg:justify-between space-y-8 lg:space-y-0 pt-8 lg:pt-16 pb-8 border-b border-slate-50/50">
         <div className="w-full lg:w-1/4">
-          <div className="text-center lg:text-left text-slate-50 font-light text-sm mb-4">
-            <h1 className="font-medium">HEAD OFFICE</h1>
+          <div className="text-center lg:text-left text-slate-50 font-medium text-sm mb-4">
+            <h1 className="font-semibold mb-2">HEAD OFFICE</h1>
             <p>56 Forest Manor Rd. U-1105 North YORK, ON M2J 0E5</p>
             <p className="mb-2">CANADA</p>
             <p className="mb-2">+1 416 571 4696</p>
@@ -34,9 +34,9 @@ const Footer = () => {
           </div>
         </div>
         <div className="w-full lg:w-1/3 flex flex-col items-center lg:flex-none">
-          <div className="text-center lg:text-left text-slate-50 font-light text-sm mb-4">
-            <h1 className="font-medium">Partner of Türkiye</h1>
-            <p className="font-medium">WCEP</p>
+          <div className="text-center lg:text-left text-slate-50 font-medium text-sm mb-4">
+            <h1 className="font-semibold ">Partner of Türkiye</h1>
+            <p className="font-semibold mb-2">WCEP</p>
             <p className="mb-2">
               Acıbadem Mah. Tekin Sok.No:5 <br></br>(Havuzlar Sitesi Köşkü)
               <br></br>İSTANBUL / TÜRKİYE

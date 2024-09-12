@@ -43,7 +43,7 @@ const MobileMenu = () => {
         </div>
       </nav>
       {ctx.toggleMenu && (
-        <ul className="flex flex-col items-center mt-10 text-slate-50 list-none text-2xl font-light">
+        <ul className="flex flex-col items-center mt-10 text-slate-50 list-none text-2xl font-medium">
           <Link
             href="/"
             className="mb-4 cursor-pointer"
@@ -97,7 +97,7 @@ const MobileMenu = () => {
             <LiaFacebook />
           </li>
         </ul> */}
-        <div className="text-center lg:text-left text-slate-50 font-light text-sm mt-4">
+        <div className="text-center lg:text-left text-slate-50 font-medium text-base mt-4">
           <p className="mb-2">+1 416 571 4696</p>
           <p>contact@celstest.org</p>
         </div>
