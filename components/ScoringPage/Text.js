@@ -3,13 +3,14 @@ import Image from "next/image";
 const Text = () => {
   return (
     <>
-      <div className="pt-20 w-full">
-        <Image
-          src="/images/sponsor7.png"
-          width={80}
-          height={30}
-          className="mx-auto"
-        />
+      <div className="pt-20 ">
+        <div className="relative w-[200px] h-[130px] md:w-[300px] md:h-[200px] mx-auto">
+          <Image
+            src="/images/sponsor7.png"
+            fill
+            className="mx-auto object-contain"
+          />
+        </div>
       </div>
       <section
         className="max-w-[1200px] mx-auto w-full px-4 text-center pt-8 bg-slate-50"
