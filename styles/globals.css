@@ -23,3 +23,18 @@
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
 }
+
+.logo {
+  background-color: #fff !important;
+  padding: 5px !important;
+  width: 120px !important;
+  height: 120px !important;
+  border-radius: 50% !important;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1) !important;
+  z-index: 999 !important;
+}
+
+.image {
+  width: 100% !important;
+  height: 100% !important;
+}

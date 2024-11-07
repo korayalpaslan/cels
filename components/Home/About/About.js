@@ -31,12 +31,22 @@ const About = () => {
   return (
     <>
       <div className="pt-20 ">
-        <div className="relative w-[200px] h-[130px] md:w-[300px] md:h-[200px] mx-auto">
-          <Image
-            src="/images/sponsor7.png"
-            fill
-            className="mx-auto object-contain"
-          />
+        <div className="relative  mx-auto flex justify-center">
+          <div className="logo">
+            <a
+              href="https://www.iao.org/Turkey-IstanbulProvince/The-Canadian-Institute"
+              target="_blank"
+              title="International Accreditation Organization - IAO"
+            >
+              <img
+                src="https://www.iao.org/assets/images/email/seal/iao-seal.png"
+                alt="International Accreditation Organization - IAO"
+                width="110"
+                height="110"
+                class="image"
+              />
+            </a>
+          </div>
         </div>
       </div>
       <section
